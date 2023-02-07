@@ -1,21 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/home_page.dart';
 
 void main() {
   runApp(MyWidget());
 }
 
 class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Material(
-          child: Center(
-        child: Container(
-          child: Text("Hi I am Baymax..."),
-        ),
-      )),
+      home: HomePage(),
     );
   }
 }
