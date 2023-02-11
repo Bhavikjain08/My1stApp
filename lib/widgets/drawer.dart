@@ -39,19 +39,6 @@ class MyDrawer extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(
-                CupertinoIcons.bag,
-                color: Colors.white,
-              ),
-              title: Text(
-                "Products",
-                textScaleFactor: 1.2,
-                style: TextStyle(
-                  color: Colors.white,
-                ),
-              ),
-            ),
-            ListTile(
-              leading: Icon(
                 CupertinoIcons.settings,
                 color: Colors.white,
               ),
